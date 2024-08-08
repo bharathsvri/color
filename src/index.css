@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.colorChange{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.box{
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.box p{
+  font-size: 29px;
+}
+
+.search{
+  width: 200px;
+  height: 30px;
+  padding: 0 10px;
+  font-size: 18px;
+}
+
+.btn{
+  width: 200px;
+  height: 30px;
+}
